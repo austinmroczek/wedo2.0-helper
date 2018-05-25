@@ -16,7 +16,7 @@
 #  /Users/SFR/Documents/WeDo/Projects
 #
 
-echo ...get to the users' home directory
+echo ...get to the users home directory
 cd
 pwd
 

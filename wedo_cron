@@ -1,0 +1,26 @@
+#!/usr/local/bin/bash
+# 
+###############################################################
+#
+#  Lego WeDo 2.0 helper
+#
+#  version 0.1
+#
+#  https://github.com/austinmroczek/wedo2.0-helper
+#
+###############################################################
+
+echo Create a crontab entry so wedo_helper runs daily
+
+#write out current crontab
+crontab -l > mycron
+
+# get path to wedo_helper
+mypath=`pwd`
+
+#echo new cron into cron file
+echo "@daily $mypath/wedo_helper" >> mycron
+
+#install new cron file
+crontab mycron
+rm mycron

@@ -1,0 +1,26 @@
+#!/usr/local/bin/bash
+# 
+###############################################################
+#
+#  Lego WeDo 2.0 helper
+#
+#  version 0.1
+#
+#  https://github.com/austinmroczek/wedo2.0-helper
+#
+###############################################################
+
+#  Per https://education.lego.com/en-us/support/wedo-2/faqs:
+#  the workbook or "project" files are stored at one of two locations on OSX:
+#  /Users/USERNAME/Documents/WeDo/Projects
+#  /Users/SFR/Documents/WeDo/Projects
+#
+
+echo ...get to the users' home directory
+cd
+pwd
+
+echo ...then remove the project files
+# TODO:  confirm file naming conventions 
+# rm Documents/WeDo/Projects/*.proj
+

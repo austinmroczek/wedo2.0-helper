@@ -16,13 +16,19 @@ Install
 $ cd Documents/WeDo/
 
 $ git clone https://github.com/austinmroczek/wedo2.0-helper
+
 The above may ask you to install Xcode command line developer tools.  Do so.
 
 $ cd wedo2.0-helper/
 
 $ chmod 755 wedo_helper wedo_cron
 
+$ ./wedo_cron
+
+This sets up a background task to remove all the files automatically when the computer reboots.
+
 $ ./wedo_helper
 
-$./wedo_cron
-This sets up a daily background task to remove all the files automatically.
+This step is only required if you want to remove all the files immediately.
+
+

@@ -19,7 +19,7 @@ crontab -l > mycron
 mypath=`pwd`
 
 #echo new cron into cron file
-echo "@daily $mypath/wedo_helper" >> mycron
+echo "@reboot $mypath/wedo_helper" >> mycron
 
 #install new cron file
 crontab mycron

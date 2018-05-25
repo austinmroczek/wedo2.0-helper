@@ -1,4 +1,4 @@
-#!/usr/local/bin/bash
+#!/bin/bash
 # 
 ###############################################################
 #
@@ -21,6 +21,5 @@ cd
 pwd
 
 echo ...then remove the project files
-# TODO:  confirm file naming conventions 
-# rm Documents/WeDo/Projects/*.proj
+rm -rf Documents/WeDo/Projects/*
 
